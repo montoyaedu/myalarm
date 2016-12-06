@@ -1,0 +1,18 @@
+[
+  {
+    "hoursToSleep" : 8,
+    "sound": {
+      "filename": "./wakeup.mp3",
+      "credits" : "http://www.pianoaccompaniments.com/handel---messiah.html",
+      "url": "http://www.pianoaccompaniments.com/uploads/2/4/2/8/2428789/18_rejoice_greatly_o_daughter_of_zion_air_for_soprano.flac"
+    }
+  },
+  {
+    "hoursToSleep" : 0.01,
+    "sound": {
+      "filename": "./wakeup.mp3",
+      "credits" : "http://www.pianoaccompaniments.com/handel---messiah.html",
+      "url": "http://www.pianoaccompaniments.com/uploads/2/4/2/8/2428789/18_rejoice_greatly_o_daughter_of_zion_air_for_soprano.flac"
+    }
+  }
+]
