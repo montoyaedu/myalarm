@@ -6,22 +6,13 @@
     var MyAlarm = function () {
         this.schedule = function(alarmDefinition, onSuccess, onError) {
 
-            var numeral = require('numeral');
-
             var player = PlaySound({});
-
-            var startDate = new Date();
-
-            var endDate = new Date();
 
             var minutes = 60 * alarmDefinition.hoursToSleep;
 
             var interval = minutes * 60 * 1000;
 
-            startDate = new Date();
-
             setTimeout(function () {
-                endDate = new Date();
                 player.play(alarmDefinition.sound.filename, onError);
                 onSuccess(alarmDefinition);
             }, interval);
