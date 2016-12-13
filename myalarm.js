@@ -14,8 +14,6 @@
 
             var endDate = new Date();
 
-            var ms = endDate.getTime() - startDate.getTime();
-
             var minutes = 60 * alarmDefinition.hoursToSleep;
 
             var interval = minutes * 60 * 1000;
@@ -24,7 +22,6 @@
 
             setTimeout(function () {
                 endDate = new Date();
-                ms = endDate.getTime() - startDate.getTime();
                 player.play(alarmDefinition.sound.filename, onError);
                 onSuccess(alarmDefinition);
             }, interval);
