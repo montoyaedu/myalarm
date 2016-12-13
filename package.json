@@ -19,5 +19,9 @@
   "dependencies": {
     "numeral": "^1.5.6",
     "play-sound": "^1.1.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
   }
 }
