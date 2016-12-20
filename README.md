@@ -1,6 +1,8 @@
 a simple alarm
 ==============
 
+[![Build Status](https://travis-ci.org/montoyaedu/myalarm.svg?branch=master)](https://travis-ci.org/montoyaedu/myalarm)
+
 test
 ====
 
