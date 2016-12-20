@@ -10,7 +10,7 @@ install:
   - npm install -g codecov
   - npm install
 script:
-  - istanbul cover _mocha --report lcovonly -- -R spec test/**/*
+  - istanbul cover _mocha --report lcovonly -- --timeout 30000 -R spec test/**/*
   - codecov
 after_success:
   - bash <(curl -s https://codecov.io/bash)
