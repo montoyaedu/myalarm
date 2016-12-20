@@ -1,6 +1,6 @@
 [
   {
-    "hoursToSleep" : 5,
+    "hoursToSleep" : 7,
     "sound": {
       "filename": "./wakeup.mp3",
       "credits" : "http://www.pianoaccompaniments.com/handel---messiah.html",
