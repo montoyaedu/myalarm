@@ -4,6 +4,7 @@
   "description": "",
   "main": "myalarm.js",
   "scripts": {
+    "start": "node main",
     "test": "istanbul cover --report html --report lcov _mocha -- --timeout 30000 -R spec test/**/*"
   },
   "author": "Montoya Edu <montoya.edu@gmail.com> (https://github.com/montoyaedu)",
